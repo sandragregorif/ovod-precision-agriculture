@@ -1,0 +1,87 @@
+{
+  "Grounding DINO": {
+    "total_detections": 92,
+    "correct_detections": 61,
+    "erroneous_detections": 31,
+    "by_class": {
+      "Naranja": {
+        "total": 11,
+        "correct": 0,
+        "erroneous": 11
+      },
+      "NaranjaVerde": {
+        "total": 81,
+        "correct": 61,
+        "erroneous": 20
+      }
+    }
+  },
+  "YOLO-World": {
+    "total_detections": 63,
+    "correct_detections": 29,
+    "erroneous_detections": 34,
+    "by_class": {
+      "Naranja": {
+        "total": 20,
+        "correct": 0,
+        "erroneous": 20
+      },
+      "NaranjaVerde": {
+        "total": 43,
+        "correct": 29,
+        "erroneous": 14
+      }
+    }
+  },
+  "YOLOE": {
+    "total_detections": 61,
+    "correct_detections": 41,
+    "erroneous_detections": 20,
+    "by_class": {
+      "Naranja": {
+        "total": 17,
+        "correct": 0,
+        "erroneous": 17
+      },
+      "NaranjaVerde": {
+        "total": 44,
+        "correct": 41,
+        "erroneous": 3
+      }
+    }
+  },
+  "SAM 3": {
+    "total_detections": 0,
+    "correct_detections": 0,
+    "erroneous_detections": 0,
+    "by_class": {
+      "Naranja": {
+        "total": 0,
+        "correct": 0,
+        "erroneous": 0
+      },
+      "NaranjaVerde": {
+        "total": 0,
+        "correct": 0,
+        "erroneous": 0
+      }
+    }
+  },
+  "OWLv2": {
+    "total_detections": 112,
+    "correct_detections": 67,
+    "erroneous_detections": 45,
+    "by_class": {
+      "Naranja": {
+        "total": 9,
+        "correct": 0,
+        "erroneous": 9
+      },
+      "NaranjaVerde": {
+        "total": 103,
+        "correct": 67,
+        "erroneous": 36
+      }
+    }
+  }
+}
