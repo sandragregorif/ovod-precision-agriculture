@@ -1,0 +1,23 @@
+
+services:
+  backend:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: ovod_app_backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./api/.env
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: ovod_app_frontend
+    ports:
+      - "8501:8080"
+    depends_on:
+      - backend
+    restart: unless-stopped
